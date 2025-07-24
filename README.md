@@ -1,5 +1,5 @@
 
-Allow Wolves to Aggro teammates
+Allow Wolves to Attack teammates
 =======
 
 This mod fixes the issue where wolves won't defend their owner nor follow their owner's attack if the target is in the same team. This is particularly useful in conjunction with life series mods, which usually assign players to teams based on their life counts (red, yellow, green).
