@@ -1,13 +1,5 @@
 {
-  "itemGroup.allow_wolves_to_attack_teammates": "Example Mod Tab",
-  "block.allow_wolves_to_attack_teammates.example_block": "Example Block",
-  "item.allow_wolves_to_attack_teammates.example_item": "Example Item",
-
-  "allow_wolves_to_attack_teammates.configuration.title": "Fix dogs targetting Configs",
-  "allow_wolves_to_attack_teammates.configuration.section.allow_wolves_to_attack_teammates.common.toml": "Fix dogs targetting Configs",
-  "allow_wolves_to_attack_teammates.configuration.section.allow_wolves_to_attack_teammates.common.toml.title": "Fix dogs targetting Configs",
-  "allow_wolves_to_attack_teammates.configuration.items": "Item List",
-  "allow_wolves_to_attack_teammates.configuration.logDirtBlock": "Log Dirt Block",
-  "allow_wolves_to_attack_teammates.configuration.magicNumberIntroduction": "Magic Number Text",
-  "allow_wolves_to_attack_teammates.configuration.magicNumber": "Magic Number"
+  "allow_wolves_to_attack_teammates.configuration.title": "Fix dogs targeting Configs",
+  "allow_wolves_to_attack_teammates.configuration.section.allow_wolves_to_attack_teammates.common.toml": "Fix dogs targeting Configs",
+  "allow_wolves_to_attack_teammates.configuration.section.allow_wolves_to_attack_teammates.common.toml.title": "Fix dogs targeting Configs"
 }
