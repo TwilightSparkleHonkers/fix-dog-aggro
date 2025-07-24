@@ -1,25 +1,13 @@
 
-Installation information
+Allow Wolves to Aggro teammates
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This mod fixes the issue where wolves won't defend their owner nor follow their owner's attack if the target is in the same team. This is particularly useful in conjunction with life series mods, which usually assign players to teams based on their life counts (red, yellow, green).
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+**NOTE THAT THIS MOD IS EXPERIMENTAL AND WILL AFFECT THE BEHAVIOR OF OTHER MOBS AS WELL. IF YOU USE TEAMS IN ANY MORE ADVANCED WAY THAN JUST COLORED NAMETAGS, PLEASE CHECK THAT THIS MOD DOES NOT BREAK STUFF.** The fix affects *any* mob to aggro *any* other mob of the same team. I have literally done 5 minutes of testing, so the chance that this breaks something is very high (pillagers/raiders might attack each other, maybe piglins too, idrk).
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
+Platform
 ==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+- Neoforge
+- 1.21.4
+NOTE: It's like 20 lines of code, you can probably port it very easily to Fabric  and other mod loaders/versions
